@@ -8,5 +8,5 @@ for a one-off run).
 
 import os
 
-ORCHESTRATOR_MODEL = os.environ.get("ORCHESTRATOR_MODEL", "gemini-3.5-flash")  # cheaper: gemini-3.1-flash-lite
+ORCHESTRATOR_MODEL = os.environ.get("ORCHESTRATOR_MODEL", "gpt-6-luna")  # cheaper: gemini-3.1-flash-lite
 WORKER_MODEL = os.environ.get("WORKER_MODEL", "gpt-5.5")  # cheaper: gpt-5.4-mini
